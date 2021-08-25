@@ -19,12 +19,10 @@ import java.util.List;
 
 public class NineBox extends AppCompatActivity {
     private Button startButton, playerButton;
+    private BackEndClass backEndClass;
     private int size;
     private List<Button> lines;
     private Integer[] visited;
-    private ArrayList<Integer>[] nodes;
-    private int player1, player2, player;
-    private HashSet<Integer[]> combo;
 
     private View.OnClickListener onClickListener = new View.OnClickListener(){
         @SuppressLint("ResourceAsColor")
@@ -213,74 +211,25 @@ public class NineBox extends AppCompatActivity {
 
             if (id != -1 && visited[id] == 0){
                 visited[id] = 1;
-                nodesConnected(x, y);
-                //Toast.makeText(NineBox.this, " id " + id, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(ThirtySixBox.this, "x " + x + " y = " + y, Toast.LENGTH_SHORT).show();
+                backEndClass.nodesConnected(x, y);
+                int size = backEndClass.getComboSize();
+                if (size == backEndClass.getBox()){
+                    Intent intent = new Intent(NineBox.this, Winner.class);
+                    int info;
+                    if (backEndClass.getPlayer1() == backEndClass.getPlayer2())
+                        info = 0;
+                    else
+                        info = backEndClass.getPlayer1() > backEndClass.getPlayer2() ? 1 : 2;
+                    intent.putExtra("winner", info);
+                    startActivity(intent);
+                    finish();
+                }
             }
             else
                 Toast.makeText(NineBox.this, "Invalid", Toast.LENGTH_SHORT).show();
         }
     };
-
-    private void nodesConnected(int x , int y) {
-        int z = detect_loop(x, y);
-        nodes[x].add(y);
-        nodes[y].add(x);
-
-        if (z == -1){
-            player = player * (-1);
-            if (player == 1)
-                playerButton.setText("Player 1");
-            else
-                playerButton.setText("Player 2");
-        }
-        else{
-            if (player == 1)
-                player1++;
-            else
-                player2++;
-        }
-
-        if (combo.size() == 9){
-            Intent intent = new Intent(NineBox.this, Winner.class);
-            int info;
-            if (player1 == player2)
-                info = 0;
-            else
-                info = player1 > player2 ? 1 : 2;
-            intent.putExtra("winner", info);
-            startActivity(intent);
-            finish();
-        }
-    }
-
-    private int detect_loop(int x , int y) {
-        boolean flag = false;
-        int i = 0, j = 0;
-        for (i = 0; i < nodes[x].size(); i++) {
-            int k = nodes[x].get(i);
-            for (j = 0; j < nodes[y].size(); j++) {
-                if (nodes[k].contains(nodes[y].get(j)) == true)
-                    break;
-            }
-
-            if (j != nodes[y].size()){
-                flag = true;
-                break;
-            }
-        }
-
-        if (flag == true){
-            Integer arr[] = new Integer[4];
-            arr[0] = x;
-            arr[1] = y;
-            arr[2] = nodes[x].get(i);
-            arr[3] = nodes[y].get(j);
-            combo.add(arr);
-            return 1;
-        }
-
-        return -1;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -321,15 +270,7 @@ public class NineBox extends AppCompatActivity {
         visited = new Integer[size];
         Arrays.fill(visited, 0);
 
-        player = 1;
-        player1 = 0;
-        player2 = 0;
-
-        nodes = new ArrayList[17];
-        for (int i = 0;i < 17; i++)
-            nodes[i] = new ArrayList<>();
-
-        combo = new HashSet<Integer[]>();
+        backEndClass = new BackEndClass(playerButton, 9,17, size);
 
         startButton.setOnClickListener(new View.OnClickListener(){
             @Override

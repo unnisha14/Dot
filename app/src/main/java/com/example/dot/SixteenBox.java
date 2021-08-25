@@ -21,12 +21,10 @@ import static java.util.Collections.swap;
 
 public class SixteenBox extends AppCompatActivity {
     private Button startButton, playerButton;
+    private BackEndClass backEndClass;
     private int size;
     private List<Button> lines;
     private Integer[] visited;
-    private ArrayList<Integer>[] nodes;
-    private int player1, player2, player;
-    private HashSet<Integer[]> combo;
 
     private View.OnClickListener onClickListener = new View.OnClickListener(){
         @SuppressLint("ResourceAsColor")
@@ -326,81 +324,25 @@ public class SixteenBox extends AppCompatActivity {
 
             if (id != -1 && visited[id] == 0){
                 visited[id] = 1;
-                //Toast.makeText(SixteenBox.this, "x " + x + " y = " + y, Toast.LENGTH_SHORT).show();
-                nodesConnected(x, y);
+                //Toast.makeText(ThirtySixBox.this, "x " + x + " y = " + y, Toast.LENGTH_SHORT).show();
+                backEndClass.nodesConnected(x, y);
+                int size = backEndClass.getComboSize();
+                if (size == backEndClass.getBox()){
+                    Intent intent = new Intent(SixteenBox.this, Winner.class);
+                    int info;
+                    if (backEndClass.getPlayer1() == backEndClass.getPlayer2())
+                        info = 0;
+                    else
+                        info = backEndClass.getPlayer1() > backEndClass.getPlayer2() ? 1 : 2;
+                    intent.putExtra("winner", info);
+                    startActivity(intent);
+                    finish();
+                }
             }
             else
                 Toast.makeText(SixteenBox.this, "Invalid", Toast.LENGTH_SHORT).show();
         }
     };
-
-    private void nodesConnected(int x , int y) {
-        int z = detect_loop(x, y);
-        nodes[x].add(y);
-        nodes[y].add(x);
-        //Toast.makeText(SixteenBox.this,"z = " + z,Toast.LENGTH_SHORT).show();
-
-        if (z == -1){
-            player = player * z;
-            if (player == 1)
-                playerButton.setText("Player 1");
-            else
-                playerButton.setText("Player 2");
-        }
-        else{
-            if (player == 1)
-                player1+=z;
-            else
-                player2+=z;
-            //Toast.makeText(SixteenBox.this,"player 1 = " + player1 + "player2 = " + player2,Toast.LENGTH_SHORT).show();
-        }
-
-        if (combo.size() == 16){
-            //Toast.makeText(SixteenBox.this,"Done",Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(SixteenBox.this, Winner.class);
-            int info;
-            if (player1 == player2)
-                info = 0;
-            else
-                info = player1 > player2 ? 1 : 2;
-            intent.putExtra("winner", info);
-            startActivity(intent);
-            finish();
-        }
-    }
-
-    private int detect_loop(int x , int y) {
-        boolean flag = false;
-        int i = 0, j = 0,count = 0;
-
-        for (i = 0; i < nodes[x].size(); i++) {
-            int k = nodes[x].get(i);
-            for (j = 0; j < nodes[y].size(); j++) {
-                if (nodes[k].contains(nodes[y].get(j)) == true) {
-                    Integer arr[] = new Integer[4];
-                    arr[0] = x;
-                    arr[1] = y;
-                    arr[2] = nodes[x].get(i);
-                    arr[3] = nodes[y].get(j);
-                    combo.add(arr);
-                    flag = true;
-                    count++;
-                }
-            }
-        }
-
-        if (flag == true){
-            return count;
-        }
-
-        return -1;
-    }
-
-    private void swap(int x , int y) {
-        int temp = x;
-        x = y;
-        y = temp;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -457,15 +399,7 @@ public class SixteenBox extends AppCompatActivity {
         visited = new Integer[size];
         Arrays.fill(visited, 0);
 
-        player = 1;
-        player1 = 0;
-        player2 = 0;
-
-        nodes = new ArrayList[26];
-        for (int i = 0;i < 26; i++)
-            nodes[i] = new ArrayList<>();
-
-        combo = new HashSet<Integer[]>();
+        backEndClass = new BackEndClass(playerButton, 16, 26, size);
 
         startButton.setOnClickListener(new View.OnClickListener(){
             @Override
