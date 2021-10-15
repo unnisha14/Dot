@@ -77,7 +77,7 @@ public class OneBox extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.N)
     private void arrayComplete(int x){
         lines[x] = 1;
-        Toast.makeText(OneBox.this,"x = " + x, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(OneBox.this,"x = " + x, Toast.LENGTH_SHORT).show();
 
         IntStream stream = Arrays.stream(lines);
         int sum = stream.sum();
