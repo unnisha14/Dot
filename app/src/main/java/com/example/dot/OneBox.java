@@ -28,10 +28,11 @@ public class OneBox extends AppCompatActivity {
         @SuppressLint("ResourceAsColor")
         @RequiresApi(api = Build.VERSION_CODES.N)
         @Override
-        public void onClick(View view) {
+        public void onClick(View v) {
             int id = -1;
-            view.setBackgroundTintList(ColorStateList.valueOf(R.color.lightorange));
-            switch (view.getId()){
+            //view.setBackgroundTintList(ColorStateList.valueOf(R.color.olivegreen));
+            v.setBackgroundColor(getResources().getColor(R.color.olivegreen));
+            switch (v.getId()){
                 case R.id.line1:
                     id = 0;
                     break;

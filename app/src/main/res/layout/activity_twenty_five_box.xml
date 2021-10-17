@@ -38,9 +38,8 @@
             <Button
                 android:id="@+id/line1"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -52,9 +51,8 @@
             <Button
                 android:id="@+id/line2"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite" />
 
             <ImageView
@@ -66,9 +64,8 @@
             <Button
                 android:id="@+id/line3"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -79,9 +76,8 @@
             <Button
                 android:id="@+id/line4"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite" />
 
             <ImageView
@@ -93,9 +89,8 @@
             <Button
                 android:id="@+id/line5"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite" />
 
             <ImageView
@@ -115,7 +110,6 @@
                 android:id="@+id/line6"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -123,7 +117,6 @@
                 android:layout_marginLeft="56dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -131,7 +124,6 @@
                 android:layout_marginLeft="55dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -139,7 +131,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -147,7 +138,6 @@
                 android:layout_marginLeft="54dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -155,7 +145,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
@@ -174,9 +163,8 @@
             <Button
                 android:id="@+id/line12"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite" />
 
             <ImageView
@@ -188,9 +176,8 @@
             <Button
                 android:id="@+id/line13"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -202,9 +189,8 @@
             <Button
                 android:id="@+id/line14"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -215,9 +201,8 @@
             <Button
                 android:id="@+id/line15"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -229,9 +214,8 @@
             <Button
                 android:id="@+id/line16"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite" />
 
             <ImageView
@@ -251,7 +235,6 @@
                 android:id="@+id/line17"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -259,7 +242,6 @@
                 android:layout_marginLeft="56dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -267,7 +249,6 @@
                 android:layout_marginLeft="55dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -275,7 +256,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -283,7 +263,6 @@
                 android:layout_marginLeft="54dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -291,7 +270,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
@@ -310,9 +288,8 @@
             <Button
                 android:id="@+id/line23"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -324,9 +301,8 @@
             <Button
                 android:id="@+id/line24"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -338,9 +314,8 @@
             <Button
                 android:id="@+id/line25"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -351,9 +326,8 @@
             <Button
                 android:id="@+id/line26"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -365,9 +339,8 @@
             <Button
                 android:id="@+id/line27"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -387,7 +360,6 @@
                 android:id="@+id/line28"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -395,7 +367,6 @@
                 android:layout_marginLeft="56dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -403,7 +374,6 @@
                 android:layout_marginLeft="55dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -411,7 +381,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -419,7 +388,6 @@
                 android:layout_marginLeft="54dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -427,7 +395,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
@@ -446,9 +413,8 @@
             <Button
                 android:id="@+id/line34"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -460,9 +426,8 @@
             <Button
                 android:id="@+id/line35"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -474,9 +439,8 @@
             <Button
                 android:id="@+id/line36"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -487,9 +451,8 @@
             <Button
                 android:id="@+id/line37"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -501,9 +464,8 @@
             <Button
                 android:id="@+id/line38"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -523,7 +485,6 @@
                 android:id="@+id/line39"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -531,7 +492,6 @@
                 android:layout_marginLeft="56dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -539,7 +499,6 @@
                 android:layout_marginLeft="55dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -547,7 +506,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -555,7 +513,6 @@
                 android:layout_marginLeft="54dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -563,7 +520,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
@@ -582,9 +538,8 @@
             <Button
                 android:id="@+id/line45"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -596,9 +551,8 @@
             <Button
                 android:id="@+id/line46"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -610,9 +564,8 @@
             <Button
                 android:id="@+id/line47"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -623,9 +576,8 @@
             <Button
                 android:id="@+id/line48"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -637,9 +589,8 @@
             <Button
                 android:id="@+id/line49"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -659,7 +610,6 @@
                 android:id="@+id/line50"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -667,7 +617,6 @@
                 android:layout_marginLeft="56dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -675,7 +624,6 @@
                 android:layout_marginLeft="55dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -683,7 +631,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -691,7 +638,6 @@
                 android:layout_marginLeft="54dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
             <Button
@@ -699,7 +645,6 @@
                 android:layout_marginLeft="55.5dp"
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
-                android:background="@color/lightwhite"
                 app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
@@ -718,9 +663,8 @@
             <Button
                 android:id="@+id/line56"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -732,9 +676,8 @@
             <Button
                 android:id="@+id/line57"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -746,9 +689,8 @@
             <Button
                 android:id="@+id/line58"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -759,9 +701,8 @@
             <Button
                 android:id="@+id/line59"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
@@ -773,9 +714,8 @@
             <Button
                 android:id="@+id/line60"
                 android:layout_width="35dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="11dp"
-                android:background="@color/lightwhite"
+                android:layout_height="25dp"
+                android:layout_marginTop="2.5dp"
                 app:backgroundTint="@color/lightwhite"/>
 
             <ImageView

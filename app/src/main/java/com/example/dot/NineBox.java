@@ -33,7 +33,6 @@ public class NineBox extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             //Toast.makeText(NineBox.this, " View " + v.getId(), Toast.LENGTH_SHORT).show();
-            v.setBackgroundTintList(ColorStateList.valueOf(R.color.lightorange));
             int x, y, id;
             x = y = id = -1;
             switch (v.getId()){
@@ -192,14 +191,14 @@ public class NineBox extends AppCompatActivity {
             if (id != -1 && visited[id] == 0){
                 visited[id] = 1;
                 //Toast.makeText(ThirtySixBox.this, "x " + x + " y = " + y, Toast.LENGTH_SHORT).show();
-                nodesConnected(x, y);
+                nodesConnected(x, y, v);
             }
             else
                 Toast.makeText(NineBox.this, "Invalid", Toast.LENGTH_SHORT).show();
         }
     };
 
-    public void nodesConnected(int x , int y){
+    public void nodesConnected(int x , int y, View v){
         z = detect_loop(x, y);
         nodes[x].add(y);
         nodes[y].add(x);
@@ -207,17 +206,27 @@ public class NineBox extends AppCompatActivity {
 
         if (z == -1){
             player = player * z;
-            if (player == 1)
+            //Toast.makeText(FourBox.this, "player " + player, Toast.LENGTH_SHORT).show();
+            if (player == 1) {
+                v.setBackgroundColor(getResources().getColor(R.color.lemonyellow));
                 playerButton.setText("Player 1");
-            else
+            }
+            else {
+                v.setBackgroundColor(getResources().getColor(R.color.olivegreen));
                 playerButton.setText("Player 2");
+            }
         }
         else{
-            if (player == 1)
+            //Toast.makeText(FourBox.this, "player " + player, Toast.LENGTH_SHORT).show();
+            if (player == 1) {
                 player1+=z;
-            else
+                v.setBackgroundColor(getResources().getColor(R.color.olivegreen));
+            }
+            else{
                 player2+=z;
-            //Toast.makeText(SixteenBox.this,"player 1 = " + player1 + "player2 = " + player2,Toast.LENGTH_SHORT).show();
+                v.setBackgroundColor(getResources().getColor(R.color.lemonyellow));
+            }
+            //Toast.makeText(FourBox.this,"player 1 = " + player1 + "player2 = " + player2,Toast.LENGTH_SHORT).show();
         }
 
         if (combo.size() == box){
@@ -300,6 +309,7 @@ public class NineBox extends AppCompatActivity {
         box = 9;
         node = 17;
         player = 1;
+        player1 = player2 = 0;
         nodes = new ArrayList[node];
         for (int i = 0; i < node; i++) {
             nodes[i] = new ArrayList<Integer>();
