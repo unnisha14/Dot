@@ -34,96 +34,84 @@ public class FourBox extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             int x, y, id;
+            v.setBackgroundTintList(ColorStateList.valueOf(R.color.lightorange));
             switch (v.getId()){
                 case R.id.line1:
                     x =  1;
                     y = 2;
                     id = 0;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line2:
                     x = 2;
                     y = 3;
                     id = 1;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line3:
                     x = 1;
                     y = 4;
                     id = 2;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line4:
                     x = 2;
                     y = 5;
                     id = 3;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line5:
                     x = 3;
                     y = 6;
                     id = 4;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line6:
                     x = 4;
                     y = 5;
                     id = 5;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line7:
                     x = 5;
                     y = 6;
                     id = 6;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line8:
                     x = 4;
                     y = 7;
                     id = 7;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line9:
                     x = 5;
                     y = 8;
                     id = 8;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line10:
                     x = 6;
                     y = 9;
                     id = 9;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line11:
                     x = 7;
                     y = 8;
                     id = 10;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line12:
                     x = 8;
                     y = 9;
                     id = 11;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
                 default:
                     x = 0;
                     y = 0;
                     id = -1;
-                    v.setBackgroundTintList(ColorStateList.valueOf(R.color.purple_200));
                     //Toast.makeText(FourBox.this, "x " + x + " y " + y, Toast.LENGTH_SHORT).show();
                     break;
             }

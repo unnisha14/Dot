@@ -31,11 +31,10 @@
         <Button
             android:id="@+id/line1"
             android:layout_width="75dp"
-            android:layout_height="5dp"
-            android:layout_marginTop="32.5dp"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:layout_height="37.5dp"
+            android:layout_marginTop="18.75dp"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <ImageView
             android:id="@+id/circle2"
@@ -46,11 +45,10 @@
         <Button
             android:id="@+id/line2"
             android:layout_width="75dp"
-            android:layout_height="5dp"
-            android:layout_marginTop="32.5dp"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:layout_height="37.5dp"
+            android:layout_marginTop="18.75dp"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <ImageView
             android:id="@+id/circle3"
@@ -61,35 +59,32 @@
     </LinearLayout>
 
     <RelativeLayout
-        android:layout_width="309dp"
+        android:layout_width="339dp"
         android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/line3"
-            android:layout_width="5dp"
-            android:layout_height="75dp"
+            android:layout_width="37.5dp"
+            android:layout_height="120dp"
             android:layout_alignParentLeft="true"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <Button
             android:id="@+id/line4"
-            android:layout_width="5dp"
-            android:layout_height="75dp"
+            android:layout_width="37.5dp"
+            android:layout_height="120dp"
             android:layout_centerInParent="true"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <Button
             android:id="@+id/line5"
-            android:layout_width="5dp"
-            android:layout_height="75dp"
+            android:layout_width="37.5dp"
+            android:layout_height="120dp"
             android:layout_alignParentRight="true"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
     </RelativeLayout>
 
@@ -107,11 +102,10 @@
         <Button
             android:id="@+id/line6"
             android:layout_width="75dp"
-            android:layout_height="5dp"
-            android:layout_marginTop="32.5dp"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:layout_height="37.5dp"
+            android:layout_marginTop="18.75dp"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <ImageView
             android:id="@+id/circle5"
@@ -122,11 +116,10 @@
         <Button
             android:id="@+id/line7"
             android:layout_width="75dp"
-            android:layout_height="5dp"
-            android:layout_marginTop="32.5dp"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:layout_height="37.5dp"
+            android:layout_marginTop="18.75dp"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite"/>
 
         <ImageView
             android:id="@+id/circle6"
@@ -137,35 +130,32 @@
     </LinearLayout>
 
     <RelativeLayout
-        android:layout_width="309dp"
+        android:layout_width="339dp"
         android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/line8"
-            android:layout_width="5dp"
-            android:layout_height="75dp"
+            android:layout_width="37.5dp"
+            android:layout_height="120dp"
             android:layout_alignParentLeft="true"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <Button
             android:id="@+id/line9"
-            android:layout_width="5dp"
-            android:layout_height="75dp"
+            android:layout_width="37.5dp"
+            android:layout_height="120dp"
             android:layout_centerInParent="true"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <Button
             android:id="@+id/line10"
-            android:layout_width="5dp"
-            android:layout_height="75dp"
+            android:layout_width="37.5dp"
+            android:layout_height="120dp"
             android:layout_alignParentRight="true"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite"/>
 
     </RelativeLayout>
 
@@ -183,11 +173,10 @@
         <Button
             android:id="@+id/line11"
             android:layout_width="75dp"
-            android:layout_height="5dp"
-            android:layout_marginTop="32.5dp"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:layout_height="37.5dp"
+            android:layout_marginTop="18.75dp"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <ImageView
             android:id="@+id/circle8"
@@ -198,11 +187,10 @@
         <Button
             android:id="@+id/line12"
             android:layout_width="75dp"
-            android:layout_height="5dp"
-            android:layout_marginTop="32.5dp"
-            android:background="@color/orange"
-            android:backgroundTint="@color/orange"
-            app:backgroundTint="#EB7323" />
+            android:layout_height="37.5dp"
+            android:layout_marginTop="18.75dp"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <ImageView
             android:id="@+id/circle9"

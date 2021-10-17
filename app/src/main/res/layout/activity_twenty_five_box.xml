@@ -38,11 +38,10 @@
             <Button
                 android:id="@+id/line1"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle2"
@@ -53,11 +52,10 @@
             <Button
                 android:id="@+id/line2"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite" />
 
             <ImageView
                 android:id="@+id/circle3"
@@ -68,11 +66,10 @@
             <Button
                 android:id="@+id/line3"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle4"
@@ -82,11 +79,10 @@
             <Button
                 android:id="@+id/line4"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite" />
 
             <ImageView
                 android:id="@+id/circle5"
@@ -97,11 +93,10 @@
             <Button
                 android:id="@+id/line5"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite" />
 
             <ImageView
                 android:id="@+id/circle6"
@@ -112,62 +107,56 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="335dp"
-            android:layout_height="wrap_content"
+            android:layout_width="338dp"
+            android:layout_height="60dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/line6"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line7"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="62dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="56dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line8"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line9"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line10"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="54dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line11"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
 
@@ -185,11 +174,10 @@
             <Button
                 android:id="@+id/line12"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite" />
 
             <ImageView
                 android:id="@+id/circle8"
@@ -200,11 +188,10 @@
             <Button
                 android:id="@+id/line13"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle9"
@@ -215,11 +202,10 @@
             <Button
                 android:id="@+id/line14"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle10"
@@ -229,11 +215,10 @@
             <Button
                 android:id="@+id/line15"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle11"
@@ -244,11 +229,10 @@
             <Button
                 android:id="@+id/line16"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite" />
 
             <ImageView
                 android:id="@+id/circle12"
@@ -259,62 +243,56 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="335dp"
-            android:layout_height="wrap_content"
+            android:layout_width="338dp"
+            android:layout_height="60dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/line17"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line18"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="62dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="56dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line19"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line20"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line21"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="54dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line22"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
 
@@ -332,11 +310,10 @@
             <Button
                 android:id="@+id/line23"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle14"
@@ -347,11 +324,10 @@
             <Button
                 android:id="@+id/line24"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle15"
@@ -362,11 +338,10 @@
             <Button
                 android:id="@+id/line25"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle16"
@@ -376,11 +351,10 @@
             <Button
                 android:id="@+id/line26"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle17"
@@ -391,11 +365,10 @@
             <Button
                 android:id="@+id/line27"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle18"
@@ -406,62 +379,56 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="335dp"
-            android:layout_height="wrap_content"
+            android:layout_width="338dp"
+            android:layout_height="60dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/line28"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line29"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="62dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="56dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line30"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line31"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line32"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="54dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line33"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
 
@@ -479,11 +446,10 @@
             <Button
                 android:id="@+id/line34"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle20"
@@ -494,11 +460,10 @@
             <Button
                 android:id="@+id/line35"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle21"
@@ -509,11 +474,10 @@
             <Button
                 android:id="@+id/line36"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle22"
@@ -523,11 +487,10 @@
             <Button
                 android:id="@+id/line37"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle23"
@@ -538,11 +501,10 @@
             <Button
                 android:id="@+id/line38"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle24"
@@ -553,62 +515,56 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="335dp"
-            android:layout_height="wrap_content"
+            android:layout_width="338dp"
+            android:layout_height="60dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/line39"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line40"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="62dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="56dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line41"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line42"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line43"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="54dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line44"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
 
@@ -626,11 +582,10 @@
             <Button
                 android:id="@+id/line45"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle26"
@@ -641,11 +596,10 @@
             <Button
                 android:id="@+id/line46"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle27"
@@ -656,11 +610,10 @@
             <Button
                 android:id="@+id/line47"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle28"
@@ -670,11 +623,10 @@
             <Button
                 android:id="@+id/line48"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle29"
@@ -685,11 +637,10 @@
             <Button
                 android:id="@+id/line49"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle30"
@@ -700,62 +651,56 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="335dp"
-            android:layout_height="wrap_content"
+            android:layout_width="338dp"
+            android:layout_height="60dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/line50"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line51"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="62dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="56dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line52"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line53"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line54"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="54dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <Button
                 android:id="@+id/line55"
-                android:layout_width="5dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="60dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_marginLeft="55.5dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
         </LinearLayout>
 
@@ -773,11 +718,10 @@
             <Button
                 android:id="@+id/line56"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle32"
@@ -788,11 +732,10 @@
             <Button
                 android:id="@+id/line57"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle33"
@@ -803,11 +746,10 @@
             <Button
                 android:id="@+id/line58"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle34"
@@ -817,11 +759,10 @@
             <Button
                 android:id="@+id/line59"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle35"
@@ -832,11 +773,10 @@
             <Button
                 android:id="@+id/line60"
                 android:layout_width="35dp"
-                android:layout_height="5dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/orange"
-                android:backgroundTint="@color/orange"
-                app:backgroundTint="#EB7323" />
+                android:layout_height="10dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/lightwhite"
+                app:backgroundTint="@color/lightwhite"/>
 
             <ImageView
                 android:id="@+id/circle36"

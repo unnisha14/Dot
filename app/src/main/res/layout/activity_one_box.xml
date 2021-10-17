@@ -23,11 +23,11 @@
 
         <Button
             android:id="@+id/line1"
-            android:layout_marginTop="50dp"
-            android:background="@color/orange"
-            app:backgroundTint="@color/orange"
-            android:layout_width="100dp"
-            android:layout_height="5dp"/>
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <ImageView
             android:id="@+id/circle2"
@@ -38,35 +38,35 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="216dp"
-        android:layout_height="wrap_content"
+        android:layout_width="352dp"
+        android:layout_height="200dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/line2"
-            android:layout_width="5dp"
-            android:layout_height="100dp"
-            android:background="@color/orange"
-            app:backgroundTint="@color/orange" />
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <TextView
             android:id="@+id/start"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textAllCaps="true"
-            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:gravity="center_horizontal"
             android:text="Start"
-            android:gravity="center_horizontal" />
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/line4"
-            android:layout_width="5dp"
-            android:layout_height="100dp"
-            android:background="@color/orange"
-            app:backgroundTint="@color/orange"/>
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
     </LinearLayout>
 
@@ -83,11 +83,11 @@
 
         <Button
             android:id="@+id/line3"
-            android:layout_marginTop="50dp"
-            android:background="@color/orange"
-            app:backgroundTint="@color/orange"
-            android:layout_width="100dp"
-            android:layout_height="5dp" />
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightwhite"
+            app:backgroundTint="@color/lightwhite" />
 
         <ImageView
             android:id="@+id/circle4"

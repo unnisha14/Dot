@@ -3,7 +3,9 @@ package com.example.dot;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -23,10 +25,12 @@ public class OneBox extends AppCompatActivity {
     private int lines[];
 
     View.OnClickListener onClickListener = new View.OnClickListener(){
+        @SuppressLint("ResourceAsColor")
         @RequiresApi(api = Build.VERSION_CODES.N)
         @Override
         public void onClick(View view) {
             int id = -1;
+            view.setBackgroundTintList(ColorStateList.valueOf(R.color.lightorange));
             switch (view.getId()){
                 case R.id.line1:
                     id = 0;
