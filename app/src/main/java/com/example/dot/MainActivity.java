@@ -22,11 +22,15 @@ public class MainActivity extends AppCompatActivity {
 
         gridView = (GridView) findViewById(R.id.grid);
 
-        ArrayList<Integer> arr = new ArrayList<>();
-        for (int i = 0;i < 6;i++)
-            arr.add(i + 1);
+        ArrayList<gridClass> arr = new ArrayList<>();
+        arr.add(new gridClass(R.drawable.one));
+        arr.add(new gridClass(R.drawable.four));
+        arr.add(new gridClass(R.drawable.nine));
+        arr.add(new gridClass(R.drawable.sixteen));
+        arr.add(new gridClass(R.drawable.twentyfive));
+        arr.add(new gridClass(R.drawable.thirtysix));
 
-        ArrayAdapter<Integer> arrayAdapter = new ArrayAdapter(MainActivity.this, R.layout.grid_view, R.id.text, arr);
+        AdapterClass arrayAdapter = new AdapterClass(MainActivity.this, arr);
         gridView.setAdapter(arrayAdapter);
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
